@@ -1,5 +1,4 @@
 
-# Don't forget to create test script 
 
 
 
@@ -19,13 +18,13 @@ class Portfolio:
         self.cash += amount
         self.audit_log.append(f"Cash is added: {amount}")
     
-    #if val is not float, raise an error
+   
     
     def withdrawCash(self,amount):
         self.cash -= amount
         self.audit_log.append(f"Cash is withdrawn: {amount}")
    
-    #if val is not float, raise an error
+   
 
     def buyStock(self,amount,stock_object):
         
